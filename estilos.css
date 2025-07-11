@@ -8,10 +8,14 @@ body {
   background-color: #fff;
 }
 
-header img {
-  width: 100%;
-  height: auto;
-  display: block;
+header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 32px;
+  font-weight: bold;
+
 }
 .opciones {
   display: flex;
