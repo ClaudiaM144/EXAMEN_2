@@ -1,16 +1,13 @@
-const lista = [
+lista = [
   { username: "admin", password: "admin.123", nivel: 1 },
   { username: "supervisor", password: "super.123", nivel: 2 },
   { username: "captura", password: "cap.123", nivel: 3 }
 ];
 
-if (!localStorage.getItem("datos")) {
-  localStorage.setItem("datos", JSON.stringify(lista));
-}
+localStorage.setItem("datos", JSON.stringify(lista));
+usuarios = JSON.parse(localStorage.getItem("datos"));
 
-const usuarios = JSON.parse(localStorage.getItem("datos"));
-
-function validar() {
+function logo() {
   const username = document.getElementById("username").value;
   const password = document.getElementById("password").value;
 
@@ -31,7 +28,7 @@ function validar() {
       window.location.href = "supervisor.html";
       break;
     case 3:
-      window.location.href = "captura_datos.html"; 
+      window.location.href = "captura.html";
       break;
     default:
       alert("Nivel de usuario no válido.");
