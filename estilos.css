@@ -3,7 +3,13 @@
     margin: 0;
     padding: 0;
   }
-
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+  }
+  .container {
+    width: 95%; /* Usa un ancho relativo para el contenedor */
+  }
   body {
 
     font-family: 'Open Sans', sans-serif;
