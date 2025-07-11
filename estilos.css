@@ -7,22 +7,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #fff;
 }
-.opcion:hover {
-  transform: scale(1.05);
-}
 
-.opcion img {
-  width: 250px;
-  height: auto;
-}
-
-.opcion-texto {
-  font-size: 22px;
-  font-weight: bold;
-  color: #3578a8;
-  margin-top: 10px;
-  text-shadow: 1px 1px 2px #ccc;
-}
 header img {
   width: 100%;
   height: auto;
