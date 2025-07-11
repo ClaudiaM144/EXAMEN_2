@@ -1,33 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Acceso - Industrias del Norte</title>
-  <link rel="stylesheet" href="estilos.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acceso al Sistema</title>
+  <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
   <header>
-    <img src="imagen/encabezado.png" alt="Banner Industrias del Norte" />
+    <img src="images/encabezado.png" alt="Encabezado">
+    <p>Acceso al Sistema</p>
   </header>
-
-  <nav>Acceso al Sistema</nav>
-
   <main>
-    <div class="login-box">
+    <div class="container">
       <h2>Acceso</h2>
-      <label for="username">Usuario:</label>
-      <input type="text" id="username" placeholder="Ingresa tu usuario" />
-      <label for="password">Contraseña:</label>
-      <input type="password" id="password" placeholder="Ingresa tu contraseña" />
-      <button type="button" onclick="validar()">Acceder</button>
+      <input type="text" id="username" placeholder="Usuario" required>
+      <input type="password" id="password" placeholder="Contraseña" required>
+      <input type="button" value="Acceder" onclick="logo()">
     </div>
   </main>
-
   <footer>
-    Avenida del Norte Telefono:55555555555
+    Avenida del Norte Teléfono: 5555555555
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>
