@@ -18,6 +18,34 @@
     text-align: center;
     padding: 10px;
   }
+.opciones {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 30px 0;
+}
+.opcion {
+  border: 3px solid black;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.opcion:hover {
+  transform: scale(1.05);
+}
+.opcion img {
+  width: 250px;
+  height: auto;
+}
+.opcion-texto {
+  font-size: 22px;
+  font-weight: bold;
+  color: #3578a8;
+  margin-top: 10px;
+  text-shadow: 1px 1px 2px #ccc;
+}
   header img {
     max-width: 100%;
     height: auto;
@@ -31,7 +59,6 @@
     gap: 30px;
     padding: 20px;
   }
-
   .container {
     max-width: 400px;
     width: 100%;
