@@ -12,17 +12,15 @@
     background-color: white;
   }
   
-  header, footer {
-    background-color: #1e1e1e;
-    color: white;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  header img {
-    max-width: 100%;
-    height: auto;
-  }
+  header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
   .opciones {
   display: flex;
   justify-content: center;
