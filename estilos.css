@@ -1,10 +1,11 @@
 
-@media (max-width: 768px) {
-  body {
-    font-size: 14px; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
   .container {
-    width: 95%; /* Usa un ancho relativo para el contenedor */
+    width: 95% ,
   }
   body {
 
